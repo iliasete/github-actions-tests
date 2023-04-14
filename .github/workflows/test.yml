@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
-      -name: Test step
+      - name: Test step
         run: echo Testing...
